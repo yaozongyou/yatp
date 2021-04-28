@@ -18,6 +18,9 @@ parking_lot_core = "0.8"
 prometheus = { version = "0.10", default-features = false }
 rand = "0.7"
 
+[dependencies.message]
+git = "https://github.com/andyzyao/message.git"
+
 [features]
 failpoints = ["fail/failpoints"]
 
